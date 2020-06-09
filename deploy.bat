@@ -1,0 +1,1 @@
+firebase deploy --only hosting:funnel-budget-web-creator

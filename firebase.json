@@ -1,0 +1,17 @@
+{
+  "hosting": {
+  "site": "funnel-budget-web-creator",
+    "public": "target",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
